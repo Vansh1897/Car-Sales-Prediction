@@ -1,0 +1,47 @@
+AI Car Buyer Brain – Predict Why Customers Don’t Buy
+Car dealerships lose customers but don’t know why.
+🧠 What AI Does
+Predict:
+Will customer buy? (Yes/No)
+If No → Reason Prediction
+Price
+Mileage
+Brand trust
+Sales follow-up delay
+
+
+🛠 ML Skills Used
+Classification
+Feature importance
+Decision Trees (explainable ML)
+Handling categorical data
+
+
+Task 1: Purchase Prediction
+Binary Classification
+Target: Will customer buy?
+Yes = 1
+No = 0
+
+Task 2: Reason Prediction (If No)
+If AI predicts No, it also predicts why:
+Reason Code     Meaning
+0               Price too high
+1               Mileage concern
+2               Brand trust issue
+3               Sales follow-up delay
+4               Budget mismatch
+
+👉 This turns AI into a decision-support tool, not just a prediction machine.
+
+
+Features            Type
+Customer Age        Numeric
+Budget              Numeric
+Car Price           Numeric
+Mileage             Numeric
+Brand               Categorical
+Previous Brand Owned    Categorical
+Follow-up Delay (days)  Numeric
+Test Drive Taken    Binary
+Negotiation Offered     Binary
